@@ -1,0 +1,86 @@
+*, body, html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --main-bg-color: #151515;
+    --primary-color: #e7e7e7;
+    --secondary-color: #73787C;
+}
+
+body {
+    background-color: var(--main-bg-color); 
+}
+
+* {
+    color: var(--primary-color);
+    font-family: 'Muli', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+}
+/* Home Starts */
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.info-container {
+    width: 50%;
+}
+
+.info-container {
+    padding: 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.work-container {
+    width: 50%;
+}
+/* Home Ends */
+
+/* Intro Starts */
+.header {
+    margin-bottom: 50px;
+}
+
+.description p {
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+}
+
+.text-link {
+    color: var(--primary-color);
+}
+/* Intro End */
+
+/* Contacts Starts */
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.display-picture {
+    flex-basis: 40%;
+}
+
+.display-picture img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.links {
+    flex-basis: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* Contacts End */

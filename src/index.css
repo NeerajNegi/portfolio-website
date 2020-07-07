@@ -29,11 +29,8 @@ h1 {
 }
 
 .info-container {
-    width: 50%;
-}
-
-.info-container {
     padding: 100px;
+    width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -42,6 +39,10 @@ h1 {
 
 .work-container {
     width: 50%;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 /* Home Ends */
 
@@ -84,3 +85,23 @@ h1 {
     justify-content: space-evenly;
 }
 /* Contacts End */
+
+/* Carousel Starts */
+.carousel-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.carousel-container p {
+    font-size: 2rem;
+}
+
+.transparent-btn {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+/* Carousel End */

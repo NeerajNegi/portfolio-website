@@ -4,6 +4,7 @@ import NeerajNegi from '../assets/neerajnegi.JPG';
 import mail from '../assets/mail.svg';
 import linkedin from '../assets/linkedin.svg';
 import github from '../assets/github.svg';
+
 const Contact = () => {
     return (
         <div className="contacts">

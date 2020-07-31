@@ -12,9 +12,24 @@ const Contact = () => {
                 <img src={NeerajNegi} alt="neeraj-negi"/>
             </div>
             <div className="links">
-                <a className="link-item" target="_blank" rel="noopener noreferrer" href="mailto: neeraj.negi174@gmail.com"><img src={mail} alt="gmail"/></a>
-                <a className="link-item" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/iamneerajnegi/"><img src={linkedin} alt="linkedin"/></a>
-                <a className="link-item" target="_blank" rel="noopener noreferrer" href="https://github.com/neerajnegi"><img src={github} alt="github"/></a>
+                <a className="link-item scale-up" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                href="mailto: neeraj.negi174@gmail.com">
+                    <img src={mail} alt="gmail"/>
+                </a>
+                <a className="link-item scale-up" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                href="https://www.linkedin.com/in/iamneerajnegi/">
+                    <img src={linkedin} alt="linkedin"/>
+                </a>
+                <a className="link-item scale-up" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                href="https://github.com/neerajnegi">
+                    <img src={github} alt="github"/>
+                </a>
             </div>
         </div>
     )

@@ -4,6 +4,21 @@
     margin: 0;
 }
 
+body { 
+    animation: fadeInAnimation ease 2s ;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+} 
+  
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
+
 :root {
     --main-bg-color: #151515;
     --primary-color: #e7e7e7;
@@ -103,5 +118,28 @@ h1 {
     border: none;
     outline: none;
     cursor: pointer;
+}
+
+.scale-up {
+    transition: transform 300ms;
+}
+
+.scale-up img {
+    transition: transform 300ms;
+}
+
+.scale-up :hover {
+    transform: scale(1.2);
+}
+
+p {
+    /* transition: all 1s; */
+    background: red;
+}
+
+p :hover {
+    /* transform: translateX(100px); */
+    /* transform: scale(2); */
+    background: yellow;
 }
 /* Carousel End */

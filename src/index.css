@@ -132,14 +132,15 @@ h1 {
     transform: scale(1.2);
 }
 
-p {
-    /* transition: all 1s; */
+/* p {
+    transition: all 1s;
     background: red;
 }
 
 p :hover {
-    /* transform: translateX(100px); */
-    /* transform: scale(2); */
+    transform: translateX(100px);
+    transform: scale(2);
     background: yellow;
-}
+} */
+
 /* Carousel End */
